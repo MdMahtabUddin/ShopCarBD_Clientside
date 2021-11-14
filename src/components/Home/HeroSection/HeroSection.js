@@ -15,10 +15,10 @@ const HeroSection = () => {
                 <h1 className="fw-bold lh-base font-monospace heading">Thousands of <br /> smiles delivered everyday</h1>
                 <div>
                     <input className="banner-input mt-3" type="text" name="search" placeholder="Search.." />
-                </div>
+                </div> 
                 <div className="container mt-5 extra-portion">
                     <div className="row">
-                        
+                        h1
                     </div>
                 </div>
             </div>
