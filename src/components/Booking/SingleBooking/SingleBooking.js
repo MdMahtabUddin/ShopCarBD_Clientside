@@ -18,7 +18,7 @@ const SingleBooking = (props) => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('http://localhost:5000/allBooking');
+                let results = await fetch('https://pacific-reef-42193.herokuapp.com/allBooking');
                 results = await results.json();
                 setAllBooking(results);
             }
@@ -30,7 +30,7 @@ const SingleBooking = (props) => {
 
 
     const handleUpdate = (id) => {
-        fetch(`http://localhost:5000/allBooking/${id}`, {
+        fetch(`https://pacific-reef-42193.herokuapp.com/allBooking/${id}`, {
             method: 'PUT',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(allBooking)
@@ -64,7 +64,7 @@ const SingleBooking = (props) => {
             .then((willDelete) => {
                 if (willDelete) {
 
-                    const url = `http://localhost:5000/myBooking/${_id}`;
+                    const url = `https://pacific-reef-42193.herokuapp.com/myBooking/${_id}`;
                     fetch(url, {
                         method: 'DELETE'
                     })

@@ -12,7 +12,7 @@ const AddPackage = () => {
     const onSubmit = data => {
 
         console.log('data', data)
-        axios.post('http://localhost:5000/addPackage', data)
+        axios.post('https://pacific-reef-42193.herokuapp.com/addPackage', data)
             .then(res => {
                 if (res.data.insertedId) {
                     swal("Added Successfully!", "", "success");
