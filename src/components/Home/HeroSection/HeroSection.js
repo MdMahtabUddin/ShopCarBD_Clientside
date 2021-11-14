@@ -18,7 +18,7 @@ const HeroSection = () => {
                 </div> 
                 <div className="container mt-5 extra-portion">
                     <div className="row">
-                        h1
+                        
                     </div>
                 </div>
             </div>
