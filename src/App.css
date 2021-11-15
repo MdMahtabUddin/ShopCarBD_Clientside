@@ -1,31 +1,44 @@
 
 
+/* all global style */
+
 body{
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Open Sans', sans-serif;
   background-color: #F2F3F8;
 }
 
-h1, h2, h3{
-  font-family: 'Stardos Stencil', cursive;
+.custom-black-btn{
+  background-color: black;
+  color: white;
 }
 
-::selection {
-  /* color: red; */
-  background: #FEFAC7;
+.custom-black-btn:hover{
+  background-color: rgba(0, 0, 0, 0.800);
+  color: white;
 }
 
-.custom-khaki-color {
-  color: #40461C;
+.react-hook-link{
+  text-decoration: none;
+  color: black;
+}
+.react-hook-link:hover .card-title{
+  text-decoration: underline;
+  color: #424242;
+
+}
+.react-hook-link:hover .item-price{
+  color: black;
 }
 
-.custom-btn-style{
-  background: #40461C;
-  color: white; 
+.react-hook-link:hover{
+  color: black;
 }
 
-.custom-btn-style:hover{
-  background: #40461C;
-  color: rgba(255, 255, 255, 0.829); 
+.product:hover img{
+  opacity: .8;
+}
+
+.product img{
+  transition: 0.3s
 }
 

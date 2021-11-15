@@ -1,13 +1,9 @@
 import React from 'react';
 
 const Loading = () => {
-
     return (
-        <div className="text-center text-secondary mb-5 mt-3">
-            <div className="">
-                <p className="text-center">Loading your data...</p>
-            </div>
-            <div className="spinner-border " role="status">
+        <div className="d-flex justify-content-center align-items-center my-3 py-5">
+            <div className="spinner-border text-secondary" role="status">
                 <span className="visually-hidden">Loading...</span>
             </div>
         </div>

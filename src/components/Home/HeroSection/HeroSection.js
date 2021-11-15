@@ -1,29 +1,43 @@
 import React from 'react';
 import './HeroSection.css';
-// import ferrai from '../../../images/slider/ferrai.gif';
-// // import marcides from '../../../images/slider/marcides.gif.jpg';
-// import slider3 from '../../../images/slider/slider3.jpg';
-// import slider4 from '../../../images/slider/slider4.jpg';
-// import slider5 from '../../../images/slider/slider5.jpg';
-// import slider6 from '../../../images/slider/slider6.jpeg';
+import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const HeroSection = () => {
     return (
-        <div className="banner">
-            <div>
-                <h1 className="fw-bold lh-base font-monospace heading">Thousands of <br /> smiles delivered everyday</h1>
-                <div>
-                    <input className="banner-input mt-3" type="text" name="search" placeholder="Search.." />
-                </div> 
-                <div className="container mt-5 extra-portion">
-                    <div className="row">
-                        
+        <div>
+            <div className="container-fluid hero-section">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-md-6 text-white hero-section-inner">
+                            <Fade left>
+                                <p>Keep Traveling</p>
+                            </Fade>
+                            <Fade right>
+                                <h1 className="display-3">
+                                    Travel T-shirt
+                                </h1>
+                            </Fade>
+                            <Fade left>
+                                <p>
+                                    Get a faster travel T-Shirt on every tour, hiking or surfing, for any travel activities. In2 Travel delivers innovative travel products, experiences, and services to inspire travelers around the world.
+                                </p>
+                            </Fade>
+                            <Link to="/shop" >
+                                <button className="btn custom-black-btn">
+                                    <FontAwesomeIcon icon={faShoppingCart} />  Shop
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="col-md-6">
+
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 };

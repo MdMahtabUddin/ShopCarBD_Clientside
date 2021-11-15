@@ -1,22 +1,23 @@
 import './App.css';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import Home from './components/Home/Home/Home';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import Header from './components/Header/Header';
-import AddPackage from './components/AddPackage/AddPackage';
-import Login from './components/Login/Login/Login';
-import PackageDetail from './components/PackageDetail/PackageDetail';
-import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import Shop from './components/Shop/Shop/Shop';
+import PlaceOrder from './components/Shop/PlaceOrder/PlaceOrder';
 import AuthProvider from './contexts/AuthProvider';
-import AllBooking from './components/Booking/AllBooking/AllBooking';
-import MyBooking from './components/Booking/MyBooking/MyBooking';
-import Footer from './components/Footer/Footer';
-
+import Login from './components/Login/Login/Login';
+import Product from './components/Shop/Product/Product';
+import Dashboard from './components/Dashboard/Dashboard/Dashboard';
+import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Router>
           <ScrollToTop>
             <Header></Header>
+
             <Switch>
 
               <Route exact path="/">
@@ -35,25 +37,26 @@ function App() {
                 <Home></Home>
               </Route>
 
-              <PrivateRoute path="/packages/:packageId">
-                <PackageDetail></PackageDetail>
+              <Route path="/shop">
+                <Shop></Shop>
+              </Route>
+
+              <PrivateRoute path="/placeOrder/:productId">
+                <PlaceOrder></PlaceOrder>
               </PrivateRoute>
 
-              <PrivateRoute path="/addPackage">
-                <AddPackage></AddPackage>
-              </PrivateRoute>
-
-              <PrivateRoute path="/myBooking">
-                <MyBooking></MyBooking>
-              </PrivateRoute>
-
-              <PrivateRoute path="/allBooking">
-                <AllBooking></AllBooking>
-              </PrivateRoute>
+              <Route path="/product/:productId">
+                <Product></Product>
+              </Route>
 
               <Route path="/login">
                 <Login></Login>
               </Route>
+
+              <PrivateRoute path="/dashboard">
+                <Dashboard></Dashboard>
+              </PrivateRoute>
+
 
               <Route path="*">
                 <NotFound></NotFound>

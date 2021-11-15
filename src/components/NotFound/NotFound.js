@@ -1,22 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './NotFound.css';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
-
-    console.log('error 404. Page not found!');
-
     return (
-        <div className="text-center py-5">
-            <h2>⚠️</h2>
-            <h2>error 404</h2>
-            <p className="fw-bold">Page not found</p>
-            <p>This is usually due to a page being deleted, or a mistyped URL</p>
-            <p>But don't worry, you can back to home page from below.</p>
-            {/* <h4 className=" py-5">SORRY, WE COULDN'T FIND THAT PAGE!</h4> */}
-            <Link to={'/'}>
-                <button className="btn btn-primary">Back to Home</button>
-            </Link>
+        <div className="container text-center py-5 ">
+            <div className="px-2 py-4 px-md-4 py-md-3 bg-whit shadow-sm rounded not-found-container">
+                <div className="py-5 text-white">
+                    <p>404 error! </p>
+                    <h2 className="display-4 fw-bold">This page d💔esn't seem to exist.</h2>
+                    <Link to={'/'}>
+                        <button className="btn custom-black-btn mt-5">Back to Home</button>
+                    </Link>
+                </div>
+            </div>
         </div>
     );
 };

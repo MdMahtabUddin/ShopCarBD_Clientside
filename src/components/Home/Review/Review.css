@@ -1,0 +1,23 @@
+
+
+
+.review-section{
+    background: url(../../../images/reviewbg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+    
+}
+
+.star-rating{
+    color: #F8B712;
+}
+
+.review{
+    text-align: justify; 
+}
+
+.review-img{
+    
+    margin: -50px;
+}
+
