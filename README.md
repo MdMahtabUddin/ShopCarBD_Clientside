@@ -1,5 +1,3 @@
-# IN2 TRAVEL T-Shirt Ltd.
-
 CAR Sell niche related MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication.
 
 ## Website : http://shopcarbd.web.app/
