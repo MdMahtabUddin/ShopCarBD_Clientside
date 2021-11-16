@@ -25,7 +25,7 @@ const Review = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('https://fierce-lake-75301.herokuapp.com/reviews');
+                let results = await fetch('https://pacific-reef-42193.herokuapp.com/reviews');
                 results = await results.json();
                 setUserReview(results);
                 setIsLoading(false);

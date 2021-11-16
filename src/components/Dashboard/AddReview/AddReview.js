@@ -18,7 +18,7 @@ const AddReview = () => {
         console.log(data);
         data.photoURL = user.photoURL;
         data.rating = rating;
-        axios.post('https://fierce-lake-75301.herokuapp.com/addReview', data)
+        axios.post('https://pacific-reef-42193.herokuapp.com/addReview', data)
             .then(res => {
                 if (res.data.insertedId) {
 

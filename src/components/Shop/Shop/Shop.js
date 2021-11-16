@@ -13,7 +13,7 @@ const Shop = () => {
         try {
 
             async function callApi() {
-                let result = await fetch('https://fierce-lake-75301.herokuapp.com/products')
+                let result = await fetch('https://pacific-reef-42193.herokuapp.com/products')
                 result = await result.json()
                 setProduct(result);
             }

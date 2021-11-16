@@ -25,7 +25,7 @@ const MyOrder = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let result = await fetch(`https://fierce-lake-75301.herokuapp.com/myOrders?email=${email}`);
+                let result = await fetch(`https://pacific-reef-42193.herokuapp.com/myOrders?email=${email}`);
                 result = await result.json();
                 setMyOrder(result)
                 setIsLoading(false)

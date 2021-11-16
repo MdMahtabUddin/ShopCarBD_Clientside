@@ -27,7 +27,7 @@ const PlaceOrder = () => {
         data.price = products?.price;
         data.image = products?.image;
 
-        axios.post('https://fierce-lake-75301.herokuapp.com/addOrder', data)
+        axios.post('https://pacific-reef-42193.herokuapp.com/addOrder', data)
             .then(res => {
                 if (res.data.insertedId) {
                     let timerInterval
@@ -61,7 +61,7 @@ const PlaceOrder = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('https://fierce-lake-75301.herokuapp.com/products');
+                let results = await fetch('https://pacific-reef-42193.herokuapp.com/products');
                 results = await results.json();
                 results = await results.find(pd => pd?._id === productId);
                 setProducts(results);

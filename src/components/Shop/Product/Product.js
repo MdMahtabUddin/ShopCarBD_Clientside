@@ -21,7 +21,7 @@ const Product = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('https://fierce-lake-75301.herokuapp.com/products');
+                let results = await fetch('https://pacific-reef-42193.herokuapp.com/products');
                 results = await results.json();
                 results = await results.find(pd => pd?._id === productId);
                 setProducts(results);

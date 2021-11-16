@@ -16,7 +16,7 @@ const ManageProducts = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('https://fierce-lake-75301.herokuapp.com/products');
+                let results = await fetch('https://pacific-reef-42193.herokuapp.com/products');
                 results = await results.json()
                 setAllProducts(results);
                 setIsLoading(false);
@@ -40,7 +40,7 @@ const ManageProducts = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                const url = `https://fierce-lake-75301.herokuapp.com/products/${id}`
+                const url = `https://pacific-reef-42193.herokuapp.com/products/${id}`
                 fetch(url, {
                     method: 'DELETE'
                 })

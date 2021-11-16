@@ -20,7 +20,7 @@ const SingleProduct = (props) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                const url = `https://fierce-lake-75301.herokuapp.com/products/${_id}`
+                const url = `https://pacific-reef-42193.herokuapp.com/products/${_id}`
                 fetch(url, {
                     method: 'DELETE'
                 })

@@ -9,7 +9,7 @@ const AddProduct = () => {
     const { register, handleSubmit, watch, formState: { errors }, reset } = useForm();
 
     const onSubmit = data => {
-        axios.post('https://fierce-lake-75301.herokuapp.com/addProduct', data)
+        axios.post('https://pacific-reef-42193.herokuapp.com/addProduct', data)
             .then(res => {
                 if (res.data.insertedId) {
 
