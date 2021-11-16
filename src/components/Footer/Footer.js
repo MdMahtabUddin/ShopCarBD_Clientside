@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-lg-3 col-sm-6">
                                 <div className="address">
-                                    <h3 className="text-uppercase fw-bold text-white">in2travel.inc</h3>
+                                    <h3 className="text-uppercase fw-bold text-white">SHOP CAR BD</h3>
                                     <p className="mb-4 mt-4">
                                         <FontAwesomeIcon icon={faMapMarkerAlt} /> Dhaka, Bangladesh, 1206.
                                     </p>
@@ -24,7 +24,7 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faPhoneAlt} /> 01743-389153 (10AM-5PM)
                                     </p>
                                     <p>
-                                        <FontAwesomeIcon icon={faEnvelope} /> in2travel87@gmail.com
+                                        <FontAwesomeIcon icon={faEnvelope} /> shopcarbd@gmail.com
                                     </p>
                                     <div className="my-5">
                                         <img src="https://i.ibb.co/2tWssgC/google-play.png" alt="" />
@@ -75,9 +75,9 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-12">
                                 <p >
-                                    Copyright &copy; <span id="currentYear"></span> Yellow Devs | Site designed by <a
-                                        href="https://yellow-devs.netlify.app/" target="_blank" rel="noreferrer" title="Yellow Devs Website">
-                                        <span className="text-white"  >Yellow Devs</span></a>
+                                    Copyright &copy; <span id="currentYear"></span> Mahtab | Site designed by <a
+                                        href="mahtab45" target="_blank" rel="noreferrer" title="mahtab 45">
+                                        <span className="text-white"  >Mahtab</span></a>
                                 </p>
                             </div>
                         </div>

@@ -1,23 +1,17 @@
-
-
-
-.review-section{
-    background: url(../../../images/reviewbg2.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 700px;
-    
+.review-section {
+  background: url(../../../images/0ferarri.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 300px;
 }
 
-.star-rating{
-    color: #F8B712;
+.star-rating {
+  color: #f8b712;
 }
 
-.review{
-    text-align: justify; 
+.review {
+  text-align: justify;
 }
 
-.review-img{
-    
-    margin: -50px;
+.review-img {
+  margin: -50px;
 }
-
