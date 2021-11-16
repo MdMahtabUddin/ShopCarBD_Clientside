@@ -87,94 +87,24 @@ const Product = () => {
                                     </button>
 
                                 </Link>
-                                <div>
-                                    <p className="fw-bold mt-5">Color</p>
-                                    <button className="btn btn-outline-dark ">Black</button>
-                                    <button className="btn btn-outline-success ms-2">Green</button>
-                                    <button className="btn btn-outline-info ms-2">Turquoise</button>
-                                </div>
+                                
 
 
-                                <div>
-                                    <p className="fw-bold mt-5">T-Shirt size</p>
-                                    <button className="btn btn-outline-secondary ">S/M</button>
-                                    <button className="btn btn-outline-secondary ms-2">L</button>
-                                    <button className="btn btn-outline-secondary ms-2">XL</button>
-                                    <button className="btn btn-outline-secondary ms-2">XXL</button>
-                                    <button className="btn btn-outline-secondary ms-2">XXXL</button>
-
-                                </div>
+                                
                                 <p className=" fw-bold d-flex align-items-center">
                                     Love this product:<Heart isClick={isClick} onClick={() => setClick(!isClick)} />
                                 </p>
                                 <hr />
 
 
-                                <p className="text-secondary col-md-8">
-                                    <small>
-                                        <FontAwesomeIcon icon={faCopyright} /> Copyright of this design is protected by in2travel.
-                                        Unauthorized use or reproduction is punishable.
-                                    </small>
-                                </p>
+                                
 
                             </div>
                         </div>
                 }
             </div>
 
-            {/* t-shirt table */}
-            <div className="mt-5 px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded ">
-                <p className="mt-2 fw-bold text-center">
-                    How to measure your T-Shirt size?
-                </p>
-                <div className="d-flex justify-content-center">
-
-                    <table className="table table-bordered w-50 table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">Size</th>
-                                <th scope="col">Front Chest (Inch)</th>
-                                <th scope="col">Height (Inch)</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>S/M</td>
-                                <td>19</td>
-                                <td>27</td>
-                            </tr>
-                            <tr>
-                                <td>L</td>
-                                <td>20</td>
-                                <td>28</td>
-                            </tr>
-                            <tr>
-                                <td>XL</td>
-                                <td>21</td>
-                                <td>29</td>
-                            </tr>
-                            <tr>
-                                <td>XXL</td>
-                                <td>23</td>
-                                <td>31</td>
-                            </tr>
-                            <tr>
-                                <td>3XL</td>
-                                <td>25</td>
-                                <td>33</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-
-                <div className="text-center ">
-                    <button className="btn custom-black-btn" onClick={() => handleMoreDetails()}>
-                        <FontAwesomeIcon icon={faExclamationCircle} />  More Details
-                    </button>
-                </div>
-
-            </div>
+            
         </div>
 
 

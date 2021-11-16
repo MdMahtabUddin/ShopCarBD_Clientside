@@ -21,7 +21,7 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faMapMarkerAlt} /> Dhaka, Bangladesh, 1206.
                                     </p>
                                     <p>
-                                        <FontAwesomeIcon icon={faPhoneAlt} /> 01743-389153 (10AM-5PM)
+                                        <FontAwesomeIcon icon={faPhoneAlt} /> 016717378** (10AM-5PM)
                                     </p>
                                     <p>
                                         <FontAwesomeIcon icon={faEnvelope} /> shopcarbd@gmail.com

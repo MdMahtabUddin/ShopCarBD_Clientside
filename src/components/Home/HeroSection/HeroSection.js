@@ -10,7 +10,7 @@ const HeroSection = () => {
     return (
         <div className="banner">
             <div>
-                <h1 className="fw-bold lh-base font-monospace heading">Thousands of <br /> smiles delivered everyday</h1>
+                <h1 className="fw-bold lh-base font-monospace heading ">Thousands of <br /> smiles delivered everyday</h1>
                 <div>
 
                 </div>

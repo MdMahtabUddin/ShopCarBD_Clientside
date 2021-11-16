@@ -36,8 +36,7 @@ const Shop = () => {
                         <h2 className="display-4 fw-bold">Shop</h2>
                     </Bounce>
                     <p className="text-secondary">
-                        Welcome to the modern and aesthetic stores of In2travels.
-                        <br />
+                        
                         Choose the product of your choice from an ample design collection.
                     </p>
                 </div>

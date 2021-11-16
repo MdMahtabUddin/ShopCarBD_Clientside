@@ -86,7 +86,7 @@ const AddProduct = () => {
                                 <small>
                                     * Copy any image url from internet and paste it here.
                                     <br />
-                                    example: https://i.ibb.co/qJGVFzG/teeshirt6.jpg
+                                    example: https://i.imgur.com/3r6GTLh.jpg
                                 </small>
                             </p>
                         </div>

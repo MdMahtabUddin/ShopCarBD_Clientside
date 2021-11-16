@@ -18,6 +18,7 @@ import Login from './components/Login/Login/Login';
 import Product from './components/Shop/Product/Product';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import MakeAdmin from './components/Dashboard/MakeAdmin/MakeAdmin';
 
 function App() {
   return (
@@ -56,6 +57,10 @@ function App() {
               <PrivateRoute path="/dashboard">
                 <Dashboard></Dashboard>
               </PrivateRoute>
+
+              <Route path="/admin">
+                <MakeAdmin></MakeAdmin>
+              </Route>
 
 
               <Route path="*">

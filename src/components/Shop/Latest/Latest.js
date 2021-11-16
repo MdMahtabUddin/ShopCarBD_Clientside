@@ -37,7 +37,7 @@ const Latest = () => {
         <div className="container my-5">
             <div className="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
                 <Bounce bottom cascade>
-                    <h2 className="text-center my-5 display-4 fw-bold">The Latest</h2>
+                    <h2 className="text-center my-5 display-4 fw-bold">Our Latest Car Collection</h2>
                 </Bounce>
                 {
                     isLoading ?

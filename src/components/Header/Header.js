@@ -38,21 +38,21 @@ const Header = () => {
                                     Shop
                                 </Link>
                             </li>
-                            <li className="nav-item" >
+                            {/* <li className="nav-item" >
                                 <HashLink to={"/home#review"} className="nav-link cool-link text-white">
                                     Review
                                 </HashLink>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <HashLink to={"/home#vlog"} className="nav-link cool-link text-white">
                                     Vlog
                                 </HashLink>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <HashLink to={"/home#contactUs"} className="nav-link cool-link text-white">
                                     Contact Us
                                 </HashLink>
-                            </li>
+                            </li> */}
                             {
                                 user.email &&
 
