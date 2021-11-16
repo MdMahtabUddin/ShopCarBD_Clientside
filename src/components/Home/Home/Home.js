@@ -16,11 +16,7 @@ const Home = () => {
 <Brands></Brands>
             <Latest></Latest>
 
-            
-
-            
-
-            <Fade bottom>
+ <Fade bottom>
                 <Review></Review>
             </Fade>
 
